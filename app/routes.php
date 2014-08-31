@@ -11,7 +11,9 @@
 |
 */
 
-Route::get('/', function()
+Route::resource('posts', 'PostsController', ['only' => ['show']]);
+Route::get('/', ['as' => 'home', 'uses' => 'PostsController@index']);
+Route::get('my-story', function ()
 {
-	return View::make('hello');
+    return View::make('pages/my-story');
 });

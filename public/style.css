@@ -1,0 +1,36 @@
+@font-face {
+    font-family: padthai;
+    src: url(PADTHAI_.TTF);
+}
+
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.thai {
+    font-family: padthai;
+    color: #27ae60 !important;
+}
+
+.gravatar {
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.center {
+    text-align: center;
+}
+
+footer {
+    padding: 20px 0;
+    text-align: center;
+}
